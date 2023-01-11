@@ -1,0 +1,40 @@
+
+  *{
+    margin: 0px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    width: atou;
+  }
+
+  div.container{
+    margin-top: 400px;
+  }
+
+  h1{
+    width: 310px;
+    font-size: 60px;
+     animation: move-animation  5s linear infinite;
+    text-shadow: 6px 3px 10px black;
+  }
+  
+  @keyframes move-animation {
+    0% {
+      transform: translateX(0);
+       color: rgb(255, 0, 0);
+    }
+    33% {
+        color: rgb(0, 72, 255);
+      }
+      66% {
+        color: rgb(0, 221, 4);
+      }
+    100% {
+      transform: translateX(26em);
+      color: rgb(255, 0, 0);
+    }
+  }
+  
